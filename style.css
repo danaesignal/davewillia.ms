@@ -20,17 +20,19 @@ section {
 .ribbon {
 	display: block;	
 	background-color:rgba(70,70,70,0.35);	
-	text-align: center;	
-	box-shadow: 0px 1px 5px 1px black;	
+	text-align: center;		
 	padding: 15px 0 15px 0;
 	font-size: 27px;	
-	color: rgba(255,255,255,.9);
-	text-shadow: .5px .5px 2px black;			
+	color: rgba(30,30,30,.7);
+	box-shadow: 0px 0.5px 6px 2px black;	
+	text-shadow: .1px .1px 1px black;			
 }
 
 .tagline {
-	font-size: 1.05em;
-	margin: -25px 0 0 0;
+	font-size: 1.15em;
+	margin: -23px 0 -2.5px 0;
+	color: rgba(30,30,30,.95);
+	text-shadow: .1px .1px .5px black;			
 }
 
 a {	
@@ -38,6 +40,5 @@ a {
 	height: 20px;
 	width: 20px;
 	background: url('new100.png') no-repeat center;
-	text-indent: -9999px;	
-	padding: -10px;
+	text-indent: -9999px;
 }
